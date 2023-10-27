@@ -1,0 +1,49 @@
+2023-10-27
+Wio terminalでBLEを動かしたい。
+VSCode+PlatformIOでやってみた。
+rpc_ble_init()
+から戻ってこない・・・
+
+諦めてarduino ideでやるか。
+
+
+そもそもeRPCって何？
+[1] https://github.com/EmbeddedRPC/erpc
+
+Embedded RPCなのか・・・
+
+shim codeとは？？
+ああ、wrapperか。
+
+[1]からリンクされている
+The New Wio Terminal eRPC Firmware
+https://www.hackster.io/Salmanfarisvp/the-new-wio-terminal-erpc-firmware-bfd8bd
+だけど、最新の手順ではないような・・・
+
+
+[1]からリンクされている
+erpc (EmbeddedRPC) getting started notes
+https://programmersought.com/article/37585084512/
+はこれから読むｗ
+
+[1]からリンクされている
+eRPC Infrastructure
+https://embeddedrpc.github.io/
+はメニューしかないので、
+https://embeddedrpc.github.io/eRPC/index.html
+こちらの方がいいかも。
+
+
+**Get Started with Wio Terminal
+https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/
+大人しく、Arduino IDEでやっていきましょう・・
+
+
+https://wiki.seeedstudio.com/Wio-Terminal-Bluetooth-Overview/
+に従ってやっていく。
+
+RTL8720のFWが焼けてなかったっぽい。
+
+
+
+
